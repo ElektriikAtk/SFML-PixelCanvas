@@ -20,29 +20,24 @@ int main()
     sf::Vector2f pixelSize(WINDOW_HEIGHT / vertical_px - canvasPadding, WINDOW_HEIGHT / vertical_px - canvasPadding);
     sf::Text text;
     sf::Text buttonText;
-    std::string buttonString = "ABCDEFGHIJKLM";
+    std::string buttonString = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     std::string color = "Black"; //Find better method!
     sf::Font font;
     sf::Color pixelOutlineColor = sf::Color(96, 96, 96, 255);
     sf::Color canvasOutlineColor = sf::Color::Black;
+    //int ButtonCharSize = 10;
     int charSize = 30;
     int pixelScaleFactor = 4;
     int canvasHeight = pixelSize.y * vertical_px + pixelOutlineThickness * 2;
     int canvasWidth = pixelSize.x * horizontal_px + pixelOutlineThickness*2;
-    int buttonTextPadding = 4;
+    int buttonTextPadding = 50;
     background.setFillColor(sf::Color(0, 100, 180, 255));
-    buttonText.setString(buttonString);
     //buttonText.setCharacterSize(charSize);
-    if (buttonText.getGlobalBounds().width < button.getGlobalBounds().width) {
-        buttonText.setCharacterSize(button.getGlobalBounds().height);
-    }
-    else {
-        while (buttonText.getGlobalBounds().width >= button.getGlobalBounds().width + buttonTextPadding) {
-            buttonText.setCharacterSize(button.getGlobalBounds().height+1);
-        }
-    }
-    
-    buttonText.setFillColor(sf::Color::Black);
+
+
+
+    buttonText.setString(buttonString);
+    buttonText.setFillColor(sf::Color::Magenta);
     buttonText.setPosition(buttonCoords.x, buttonCoords.y);
     button.setPosition(buttonCoords.x, buttonCoords.y);
     button.setOutlineThickness(2.f);
@@ -50,9 +45,10 @@ int main()
     text.setCharacterSize(charSize);
     text.setFillColor(sf::Color::Green);
     text.setPosition(1000, 600);
+    //std::cout <<buttonText.getLocalBounds().width<<"\n";
 
-    if (!font.loadFromFile("misc/FantasqueSansMono-Regular.ttf")) {
-        // error...
+    if (!font.loadFromFile("misc/VT323-Regular.ttf")) {
+        std::cout << "The chosen font could not be loaded.\n";
     } else {
         text.setFont(font);
         buttonText.setFont(font);
@@ -86,8 +82,19 @@ int main()
         //    }
         //}
 
-        std::cout << "(" << button.getPosition().y << " - (" << button.getGlobalBounds().height << " - " << buttonText.getGlobalBounds().height/0.66 << ")) /2\n";
-        buttonText.setPosition(button.getPosition().x + ((button.getGlobalBounds().width - buttonText.getGlobalBounds().width) / 2), button.getPosition().y + (((button.getGlobalBounds().height - buttonText.getGlobalBounds().height / 0.66) / 2)- buttonText.getGlobalBounds().height/2));
+        int buttonCharSize =1;
+        //if (buttonText.getGlobalBounds().width + buttonTextPadding > button.getGlobalBounds().width)
+        while (buttonText.getGlobalBounds().width + buttonTextPadding >  button.getGlobalBounds().width/* && buttonText.getGlobalBounds().width + buttonTextPadding > button.getGlobalBounds().width*/) {
+            buttonText.setCharacterSize(buttonCharSize);
+        }
+        buttonText.setPosition(button.getPosition().x + (button.getGlobalBounds().width - buttonText.getGlobalBounds().width) / 2, button.getPosition().y);
+
+        sf::RectangleShape testRect(sf::Vector2f(buttonText.getGlobalBounds().width, 2*buttonText.getGlobalBounds().height));
+        testRect.setPosition(buttonText.getPosition().x, buttonText.getPosition().y);
+        std::cout << "Testrect pos: " << testRect.getPosition().x << ", " << testRect.getPosition().y << "\n";
+        testRect.setOutlineColor(sf::Color::Red);
+        testRect.setOutlineThickness(1.f);
+        testRect.setFillColor(sf::Color::Transparent);
 
         window.clear();
 
@@ -97,7 +104,7 @@ int main()
         window.draw(button);
         window.draw(buttonText);
         window.draw(text);
-
+        window.draw(testRect);
 
 
         for (int i = 0; i < pixelVector.size(); i++) {
