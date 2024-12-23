@@ -1,3 +1,5 @@
+//working
+
 #include <SFML/Graphics.hpp>
 #include <iostream>
 #include <vector>
@@ -27,6 +29,7 @@ int main()
     sf::Color canvasOutlineColor = sf::Color::Black;
     //int ButtonCharSize = 10;
     int charSize = 30;
+    int buttonCharSize = 20;
     int pixelScaleFactor = 4;
     int canvasHeight = pixelSize.y * vertical_px + pixelOutlineThickness * 2;
     int canvasWidth = pixelSize.x * horizontal_px + pixelOutlineThickness*2;
@@ -54,10 +57,10 @@ int main()
         buttonText.setFont(font);
     }
 
-    std::vector<sf::RectangleShape> pixelVector;
-    for (int i = canvasPadding*(pixelScaleFactor); i <  canvasHeight; i += pixelSize.y) {
-        for (int j = canvasPadding*(pixelScaleFactor); j < canvasWidth; j += pixelSize.x) {
-            sf::RectangleShape pixel(pixelSize);
+    std::vector<sf::RectangleShape> pixelVector; // Each pixel in the canvas is stored here
+    for (int i = canvasPadding*(pixelScaleFactor); i <  canvasHeight; i += pixelSize.y) { // Each row? of pixels
+        for (int j = canvasPadding*(pixelScaleFactor); j < canvasWidth; j += pixelSize.x) { // Each column? of pixels
+            sf::RectangleShape pixel(pixelSize); // Each pixel gets created with given parameters
             pixel.setOutlineThickness(pixelOutlineThickness);
             pixel.setOutlineColor(pixelOutlineColor);
             pixel.setPosition(sf::Vector2f(j, i));
@@ -65,7 +68,7 @@ int main()
         }
     }
 
-    sf::RectangleShape canvasOutline(sf::Vector2f(canvasWidth, canvasHeight));
+    sf::RectangleShape canvasOutline(sf::Vector2f(canvasWidth, canvasHeight)); // Border around the pixel canvas
     canvasOutline.setPosition(pixelVector[0].getPosition().x-pixelOutlineThickness, pixelVector[0].getPosition().y - pixelOutlineThickness);
     canvasOutline.setOutlineThickness(canvasPadding);
     canvasOutline.setOutlineColor(canvasOutlineColor);
@@ -82,7 +85,7 @@ int main()
         //    }
         //}
 
-        int buttonCharSize =1;
+
         //if (buttonText.getGlobalBounds().width + buttonTextPadding > button.getGlobalBounds().width)
         while (buttonText.getGlobalBounds().width + buttonTextPadding >  button.getGlobalBounds().width/* && buttonText.getGlobalBounds().width + buttonTextPadding > button.getGlobalBounds().width*/) {
             buttonText.setCharacterSize(buttonCharSize);
@@ -91,7 +94,7 @@ int main()
 
         sf::RectangleShape testRect(sf::Vector2f(buttonText.getGlobalBounds().width, 2*buttonText.getGlobalBounds().height));
         testRect.setPosition(buttonText.getPosition().x, buttonText.getPosition().y);
-        std::cout << "Testrect pos: " << testRect.getPosition().x << ", " << testRect.getPosition().y << "\n";
+        //std::cout << "Testrect pos: " << testRect.getPosition().x << ", " << testRect.getPosition().y << "\n";
         testRect.setOutlineColor(sf::Color::Red);
         testRect.setOutlineThickness(1.f);
         testRect.setFillColor(sf::Color::Transparent);
@@ -135,7 +138,7 @@ int main()
                     }
                 }
                 else {
-                    text.setString("Outside");
+                    //text.setString("Outside");
                 }
                 window.draw(text);
             }
@@ -165,7 +168,7 @@ int main()
                 if (event.mouseButton.button == sf::Mouse::Left) {
                     if (event.mouseButton.x > button.getGlobalBounds().left && event.mouseButton.x < button.getGlobalBounds().left + button.getGlobalBounds().width && event.mouseButton.y > button.getGlobalBounds().top && event.mouseButton.y < button.getGlobalBounds().top + button.getGlobalBounds().height) {
                         std::vector<int> bitmapVector;
-                        text.setString("Inside");
+                        //text.setString("Inside");
                         for (int i = 0; i < pixelVector.size(); i++) {
                             sf::Color pixelColor = pixelVector[i].getFillColor();
                             if (pixelColor == sf::Color::Black) {

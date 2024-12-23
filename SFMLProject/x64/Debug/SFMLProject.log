@@ -1,0 +1,73 @@
+﻿  Application.cpp
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(22,101): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(22,101): warning C4244:         with
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(22,101): warning C4244:         [
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(22,101): warning C4244:             T=float
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(22,101): warning C4244:         ]
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(22,56): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(22,56): warning C4244:         with
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(22,56): warning C4244:         [
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(22,56): warning C4244:             T=float
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(22,56): warning C4244:         ]
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(34,22): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(34,22): warning C4244:         with
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(34,22): warning C4244:         [
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(34,22): warning C4244:             T=float
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(34,22): warning C4244:         ]
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(35,21): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(35,21): warning C4244:         with
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(35,21): warning C4244:         [
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(35,21): warning C4244:             T=float
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(35,21): warning C4244:         ]
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(61,85): warning C4244: '+=': conversion from 'T' to 'int', possible loss of data
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(61,85): warning C4244:         with
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(61,85): warning C4244:         [
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(61,85): warning C4244:             T=float
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(61,85): warning C4244:         ]
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(62,87): warning C4244: '+=': conversion from 'T' to 'int', possible loss of data
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(62,87): warning C4244:         with
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(62,87): warning C4244:         [
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(62,87): warning C4244:             T=float
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(62,87): warning C4244:         ]
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(66,47): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(66,47): warning C4244:         with
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(66,47): warning C4244:         [
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(66,47): warning C4244:             T=float
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(66,47): warning C4244:         ]
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(66,44): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(66,44): warning C4244:         with
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(66,44): warning C4244:         [
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(66,44): warning C4244:             T=float
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(66,44): warning C4244:         ]
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(71,64): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(71,64): warning C4244:         with
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(71,64): warning C4244:         [
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(71,64): warning C4244:             T=float
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(71,64): warning C4244:         ]
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(71,51): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(71,51): warning C4244:         with
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(71,51): warning C4244:         [
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(71,51): warning C4244:             T=float
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(71,51): warning C4244:         ]
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(73,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(124,26): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(124,26): warning C4244:         with
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(124,26): warning C4244:         [
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(124,26): warning C4244:             T=float
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(124,26): warning C4244:         ]
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(125,27): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(125,27): warning C4244:         with
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(125,27): warning C4244:         [
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(125,27): warning C4244:             T=float
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(125,27): warning C4244:         ]
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(126,25): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(126,25): warning C4244:         with
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(126,25): warning C4244:         [
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(126,25): warning C4244:             T=float
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(126,25): warning C4244:         ]
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(127,28): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(127,28): warning C4244:         with
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(127,28): warning C4244:         [
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(127,28): warning C4244:             T=float
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(127,28): warning C4244:         ]
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(184,36): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data

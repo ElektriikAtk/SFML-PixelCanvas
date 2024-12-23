@@ -1,0 +1,127 @@
+﻿  Application.cpp
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(22,101): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(22,101): warning C4244:         with
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(22,101): warning C4244:         [
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(22,101): warning C4244:             T=float
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(22,101): warning C4244:         ]
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(22,56): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(22,56): warning C4244:         with
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(22,56): warning C4244:         [
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(22,56): warning C4244:             T=float
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(22,56): warning C4244:         ]
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(33,22): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(33,22): warning C4244:         with
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(33,22): warning C4244:         [
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(33,22): warning C4244:             T=float
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(33,22): warning C4244:         ]
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(34,21): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(34,21): warning C4244:         with
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(34,21): warning C4244:         [
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(34,21): warning C4244:             T=float
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(34,21): warning C4244:         ]
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(60,85): warning C4244: '+=': conversion from 'T' to 'int', possible loss of data
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(60,85): warning C4244:         with
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(60,85): warning C4244:         [
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(60,85): warning C4244:             T=float
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(60,85): warning C4244:         ]
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(61,87): warning C4244: '+=': conversion from 'T' to 'int', possible loss of data
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(61,87): warning C4244:         with
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(61,87): warning C4244:         [
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(61,87): warning C4244:             T=float
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(61,87): warning C4244:         ]
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(65,47): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(65,47): warning C4244:         with
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(65,47): warning C4244:         [
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(65,47): warning C4244:             T=float
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(65,47): warning C4244:         ]
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(65,44): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(65,44): warning C4244:         with
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(65,44): warning C4244:         [
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(65,44): warning C4244:             T=float
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(65,44): warning C4244:         ]
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(70,64): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(70,64): warning C4244:         with
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(70,64): warning C4244:         [
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(70,64): warning C4244:             T=float
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(70,64): warning C4244:         ]
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(70,51): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(70,51): warning C4244:         with
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(70,51): warning C4244:         [
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(70,51): warning C4244:             T=float
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(70,51): warning C4244:         ]
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(72,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(112,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(122,31): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(123,26): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(123,26): warning C4244:         with
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(123,26): warning C4244:         [
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(123,26): warning C4244:             T=float
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(123,26): warning C4244:         ]
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(124,27): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(124,27): warning C4244:         with
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(124,27): warning C4244:         [
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(124,27): warning C4244:             T=float
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(124,27): warning C4244:         ]
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(125,25): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(125,25): warning C4244:         with
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(125,25): warning C4244:         [
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(125,25): warning C4244:             T=float
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(125,25): warning C4244:         ]
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(126,28): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(126,28): warning C4244:         with
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(126,28): warning C4244:         [
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(126,28): warning C4244:             T=float
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(126,28): warning C4244:         ]
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Application.cpp(171,43): warning C4018: '<': signed/unsigned mismatch
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class sf::RenderStates const sf::RenderStates::Default" (__imp_?Default@RenderStates@sf@@2V12@B)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class sf::Color const sf::Color::White" (__imp_?White@Color@sf@@2V12@B)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class sf::Vector2<float> const & __thiscall sf::Transformable::getPosition(void)const " (__imp_?getPosition@Transformable@sf@@QBEABV?$Vector2@M@2@XZ)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall sf::Transformable::setPosition(float,float)" (__imp_?setPosition@Transformable@sf@@QAEXMM@Z)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall sf::Transformable::setPosition(class sf::Vector2<float> const &)" (__imp_?setPosition@Transformable@sf@@QAEXABV?$Vector2@M@2@@Z)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: bool __thiscall sf::Font::loadFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_?loadFromFile@Font@sf@@QAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::Font::~Font(void)" (__imp_??1Font@sf@@QAE@XZ)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::Font::Font(void)" (__imp_??0Font@sf@@QAE@XZ)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall sf::RenderWindow::~RenderWindow(void)" (__imp_??1RenderWindow@sf@@UAE@XZ)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::RenderWindow::RenderWindow(class sf::VideoMode,class sf::String const &,unsigned int,struct sf::ContextSettings const &)" (__imp_??0RenderWindow@sf@@QAE@VVideoMode@1@ABVString@1@IABUContextSettings@1@@Z)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::Color::Color(unsigned char,unsigned char,unsigned char,unsigned char)" (__imp_??0Color@sf@@QAE@EEEE@Z)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class sf::Color const sf::Color::Red" (__imp_?Red@Color@sf@@2V12@B)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class sf::Color const sf::Color::Black" (__imp_?Black@Color@sf@@2V12@B)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) bool __cdecl sf::operator==(class sf::Color const &,class sf::Color const &)" (__imp_??8sf@@YA_NABVColor@0@0@Z)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall sf::Window::display(void)" (__imp_?display@Window@sf@@QAEXXZ)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual void __thiscall sf::Window::close(void)" (__imp_?close@Window@sf@@UAEXXZ)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: bool __thiscall sf::WindowBase::pollEvent(class sf::Event &)" (__imp_?pollEvent@WindowBase@sf@@QAE_NAAVEvent@2@@Z)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: bool __thiscall sf::WindowBase::isOpen(void)const " (__imp_?isOpen@WindowBase@sf@@QBE_NXZ)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class sf::Color const sf::Color::Transparent" (__imp_?Transparent@Color@sf@@2V12@B)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class sf::Color const sf::Color::Green" (__imp_?Green@Color@sf@@2V12@B)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall sf::RenderTarget::draw(class sf::Drawable const &,class sf::RenderStates const &)" (__imp_?draw@RenderTarget@sf@@QAEXABVDrawable@2@ABVRenderStates@2@@Z)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall sf::RenderTarget::clear(class sf::Color const &)" (__imp_?clear@RenderTarget@sf@@QAEXABVColor@2@@Z)
+    Hint on symbols that are defined and could potentially match:
+      "__declspec(dllimport) public: void __thiscall std::basic_ios<char,struct std::char_traits<char> >::clear(int,bool)" (__imp_?clear@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEXH_N@Z)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static bool __cdecl sf::Keyboard::isKeyPressed(enum sf::Keyboard::Key)" (__imp_?isKeyPressed@Keyboard@sf@@SA_NW4Key@12@@Z)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) private: virtual void __thiscall sf::Shape::draw(class sf::RenderTarget &,class sf::RenderStates)const " (__imp_?draw@Shape@sf@@EBEXAAVRenderTarget@2@VRenderStates@2@@Z)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class sf::Rect<float> __thiscall sf::Shape::getGlobalBounds(void)const " (__imp_?getGlobalBounds@Shape@sf@@QBE?AV?$Rect@M@2@XZ)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class sf::Color const & __thiscall sf::Shape::getFillColor(void)const " (__imp_?getFillColor@Shape@sf@@QBEABVColor@2@XZ)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall sf::Shape::setOutlineThickness(float)" (__imp_?setOutlineThickness@Shape@sf@@QAEXM@Z)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall sf::Shape::setOutlineColor(class sf::Color const &)" (__imp_?setOutlineColor@Shape@sf@@QAEXABVColor@2@@Z)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall sf::Shape::setFillColor(class sf::Color const &)" (__imp_?setFillColor@Shape@sf@@QAEXABVColor@2@@Z)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::String::String(char const *,class std::locale const &)" (__imp_??0String@sf@@QAE@PBDABVlocale@std@@@Z)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::String::String(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::locale const &)" (__imp_??0String@sf@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABVlocale@3@@Z)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual class sf::Vector2<float> __thiscall sf::RectangleShape::getPoint(unsigned int)const " (__imp_?getPoint@RectangleShape@sf@@UBE?AV?$Vector2@M@2@I@Z)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual unsigned int __thiscall sf::RectangleShape::getPointCount(void)const " (__imp_?getPointCount@RectangleShape@sf@@UBEIXZ)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::RectangleShape::RectangleShape(class sf::Vector2<float> const &)" (__imp_??0RectangleShape@sf@@QAE@ABV?$Vector2@M@1@@Z)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::VideoMode::VideoMode(unsigned int,unsigned int,unsigned int)" (__imp_??0VideoMode@sf@@QAE@III@Z)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class sf::Color const sf::Color::Magenta" (__imp_?Magenta@Color@sf@@2V12@B)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class sf::Rect<float> __thiscall sf::Text::getGlobalBounds(void)const " (__imp_?getGlobalBounds@Text@sf@@QBE?AV?$Rect@M@2@XZ)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall sf::Text::setFillColor(class sf::Color const &)" (__imp_?setFillColor@Text@sf@@QAEXABVColor@2@@Z)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall sf::Text::setCharacterSize(unsigned int)" (__imp_?setCharacterSize@Text@sf@@QAEXI@Z)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall sf::Text::setFont(class sf::Font const &)" (__imp_?setFont@Text@sf@@QAEXABVFont@2@@Z)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall sf::Text::setString(class sf::String const &)" (__imp_?setString@Text@sf@@QAEXABVString@2@@Z)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::Text::Text(void)" (__imp_??0Text@sf@@QAE@XZ)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class sf::Vector2<int> __cdecl sf::Mouse::getPosition(class sf::WindowBase const &)" (__imp_?getPosition@Mouse@sf@@SA?AV?$Vector2@H@2@ABVWindowBase@2@@Z)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static bool __cdecl sf::Mouse::isButtonPressed(enum sf::Mouse::Button)" (__imp_?isButtonPressed@Mouse@sf@@SA_NW4Button@12@@Z)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::RectangleShape::RectangleShape(class sf::RectangleShape &&)" (__imp_??0RectangleShape@sf@@QAE@$$QAV01@@Z)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::RectangleShape::RectangleShape(class sf::RectangleShape const &)" (__imp_??0RectangleShape@sf@@QAE@ABV01@@Z)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall sf::Text::~Text(void)" (__imp_??1Text@sf@@UAE@XZ)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall sf::RectangleShape::~RectangleShape(void)" (__imp_??1RectangleShape@sf@@UAE@XZ)
+Application.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::String::~String(void)" (__imp_??1String@sf@@QAE@XZ)
+C:\Users\Adrian\Desktop\Proyectos\sfmlworking\Release\SFMLProject.exe : fatal error LNK1120: 49 unresolved externals
