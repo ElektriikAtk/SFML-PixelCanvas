@@ -1,0 +1,5 @@
+23/12/2024:
+- Created this changelog
+- Fixed config for VS for static SFML
+- Added multiple comments
+- Added .gitignore file 
