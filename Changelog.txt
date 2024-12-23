@@ -3,3 +3,4 @@
 - Fixed config for VS for static SFML
 - Added multiple comments
 - Added .gitignore file 
+- Updated dependencies to match 2022 VS
